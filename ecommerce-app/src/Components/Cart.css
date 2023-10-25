@@ -1,0 +1,20 @@
+
+
+.cart-container{
+  background-image: linear-gradient(rgb(184, 193, 207),rgb(132, 190, 201));
+  height: 100vh;
+  padding: 30px;
+    
+}
+.cart-head{
+  color: rgba(0, 0, 0, 0.701);
+  font-size: 35px;
+  margin: 5px;
+}
+.nothing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  color: aliceblue;
+}

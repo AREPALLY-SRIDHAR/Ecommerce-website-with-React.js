@@ -1,0 +1,238 @@
+.app-container {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+    min-height: 100vh;
+  }
+  
+  .app-store {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    max-width: 1110px;
+  }
+  
+  .heading {
+    color: #1e293b;
+    font-family: 'Bree Serif';
+    font-size: 40px;
+    margin-top: 64px;
+    margin-bottom: 48px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .heading {
+      font-size: 48px;
+      margin-top: 96px;
+    }
+  }
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+  .search-input-container {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: transparent;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 4px;
+    border: 1px solid #7b8794;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    margin: 5px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .search-input-container {
+      max-width: 480px;
+    }
+  }
+  
+  .search-input {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    flex-grow: 1;
+  }
+  
+  .search-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .cart-icon{
+    margin: 5px;
+    font-size: 50px;
+  }
+  .tabs-list {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 0px;
+    margin-top: 32px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .tabs-list {
+      margin-top: 48px;
+    }
+  }
+  
+  .apps-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popup h2 {
+    margin-top: 0;
+  }
+  
+  .popup button {
+    margin-top: 10px;
+  }
+  
+.logo{
+  height: 50%;
+  width: 50%;
+  
+}  
+.pop-button{
+  align-self: flex-start;
+  margin: 5px;
+  background: linear-gradient(to right, #3498db, #2ecc71);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 20px;
+}  
+.card{
+  background-color: transparent;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pop-para{
+  color: rgb(198, 227, 93);
+  font-size: 25px;
+}  
+.cart-button{
+  background-color: transparent;
+  color: #3498db;
+  border: 2px solid #3498db;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+} 
+
+.cart-button:hover{
+  background-color: rgb(223, 230, 232);
+}
+
+.cash-card{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 500;
+  
+}
+.quantity-button{
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin: 1%;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+}
+.quantity-button:hover{
+  background-color: #fff;
+}
+.quantity-card{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 20px;
+}
+.quantity-para{
+  border: 1px solid gray;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  border-radius: 8px;
+}
+@media (max-width: 650px) {
+  .popup {
+    align-items: center;
+  }
+
+  .popup-content {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .logo {
+    width: 50%;
+    height: auto;
+  }
+
+  .card {
+    width: 90%;
+    height: auto;
+  }
+  .cart-button{
+    font-size: 10px;
+  }
+  .quantity-para{
+    width: 25px;
+    height: 20px;
+  }
+  .quantity-card{
+    font-size: 12px;
+  }
+}
+
+  
